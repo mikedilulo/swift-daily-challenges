@@ -149,3 +149,13 @@ func addsUpAllNumbersFromOne(_ num: Int) -> Int {
     }
     return total
 }
+
+// Create a function that determines whether an input value is omnipresent for a given array.
+func isOmnipresentValue(_ arr: [[Int]], _ val: Int) -> Bool {
+	for subarray in arr {
+		if !subarray.contains(val) {
+			return false
+		}
+	}
+	return true
+}
