@@ -65,3 +65,12 @@ func animalLegs(_ chickens: Int, _ cows: Int, _ pigs: Int) -> Int {
     var pigLegs = pigs * 4
     return chickenLegs + cowLegs + pigLegs
 }
+
+// Profitable Gamble
+func profitableGamble(_ prob: Float, _ prize: Float, _ pay: Float) -> Bool {
+    if prob * prize > pay {
+        return true
+    } else {
+        return false
+    }
+}
