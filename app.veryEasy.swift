@@ -97,3 +97,12 @@ func arrContainsNumber(_ arr: [Int], _ el: Int) -> Bool {
         return false
     }
 }
+
+// Create a function that displays if a pie can be split evenly between recipients
+func equalNumOfSlices(_ totalSlices: Int, _ recipients: Int, _ slicesEach: Int) -> Bool {
+    if recipients * slicesEach <= totalSlices {
+        return true
+    } else {
+        return false
+    }
+}
