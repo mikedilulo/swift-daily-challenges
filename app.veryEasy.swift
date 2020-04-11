@@ -140,3 +140,12 @@ func upperOrLowerCase(_ str: String) -> Bool {
         return false
     }
 }
+
+// Create a function that adds up all the numbers from a single number
+func addsUpAllNumbersFromOne(_ num: Int) -> Int {
+    var total = 0
+    for number in 1...num {
+        total += number
+    }
+    return total
+}
