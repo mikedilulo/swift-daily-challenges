@@ -57,3 +57,11 @@ func concatName(_ str1: String, _ str2: String) -> String {
 func flipBool(_ bool: Bool) -> Bool {
     return !bool
 }
+
+//Create a function that shows how many legs a farmer's farm animal has
+func animalLegs(_ chickens: Int, _ cows: Int, _ pigs: Int) -> Int {
+    var chickenLegs = chickens * 2
+    var cowLegs = cows * 4
+    var pigLegs = pigs * 4
+    return chickenLegs + cowLegs + pigLegs
+}
