@@ -111,3 +111,12 @@ func equalNumOfSlices(_ totalSlices: Int, _ recipients: Int, _ slicesEach: Int) 
 func lastItemInArray(_ arr: [Any]) -> Any {
 	return arr.last
 }
+
+// function that return string even for even numbers, string odd for odd numbers
+func isOddOrEven(_ num: Int) -> Bool {
+    if num % 2 == 0 {
+        return "even"
+    } else {
+        return "odd"
+    }
+}
