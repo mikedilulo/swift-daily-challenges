@@ -52,3 +52,8 @@ return str.emptyString
 func concatName(_ str1: String, _ str2: String) -> String {
     return str1 + ", " + str2
 }
+
+//Create a function that flips the bool
+func flipBool(_ bool: Bool) -> Bool {
+    return !bool
+}
