@@ -129,3 +129,14 @@ func stringHasSpaces(_str: String) -> Bool {
         return false
     }
 }
+
+// Create a function that returns boolean value based off of if the string is all upper or lowercase
+func upperOrLowerCase(_ str: String) -> Bool {
+    if (str == str.uppercased()) {
+        return true
+    } else if (str == str.lowercased()) {
+        return true
+    } else {
+        return false
+    }
+}
