@@ -37,3 +37,8 @@ func divisibleByFive(_ num: Int) -> Bool {
         return false
     }
 }
+
+// Concatenate two arrays into one
+func concatArrays(_ arr1: [Int], _ arr2: [Int]) -> [Int] {
+    return arr1 + arr2
+}
