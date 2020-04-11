@@ -74,3 +74,8 @@ func profitableGamble(_ prob: Float, _ prize: Float, _ pay: Float) -> Bool {
         return false
     }
 }
+
+// Write a function to reverse an array
+func reverseArray(_ arr1: [Int]) -> [Int] {
+    return arr1.reverse()
+}
