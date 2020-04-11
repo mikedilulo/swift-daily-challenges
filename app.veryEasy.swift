@@ -106,3 +106,8 @@ func equalNumOfSlices(_ totalSlices: Int, _ recipients: Int, _ slicesEach: Int) 
         return false
     }
 }
+
+// Return the last element in an Array 
+func lastItemInArray(_ arr: [Any]) -> Any {
+	return arr.last
+}
