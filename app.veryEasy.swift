@@ -79,3 +79,21 @@ func profitableGamble(_ prob: Float, _ prize: Float, _ pay: Float) -> Bool {
 func reverseArray(_ arr1: [Int]) -> [Int] {
     return arr1.reverse()
 }
+
+// Divisibly be 100 Return Boolean
+func divisibleByHundred(_ num: Int) -> Bool {
+    if num % 100 == 0 {
+        return true
+    } else {
+        return false
+    }
+}
+
+// Write a function to see if the array contains a particular number
+func arrContainsNumber(_ arr: [Int], _ el: Int) -> Bool {
+    if arr.contains(el) {
+        return true
+    } else {
+        return false
+    }
+}
