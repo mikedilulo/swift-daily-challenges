@@ -42,3 +42,8 @@ func divisibleByFive(_ num: Int) -> Bool {
 func concatArrays(_ arr1: [Int], _ arr2: [Int]) -> [Int] {
     return arr1 + arr2
 }
+
+//Create a function that returns true if the string is empty and false if not
+func emptyString(_ str: String) -> Bool {
+return str.emptyString
+} 
