@@ -28,3 +28,12 @@ func lessThanOrEqualToZero(_ num: Int) -> Bool {
 func returnRemainder(_ x: Int, _ y: Int) -> Int {
     return x % y
 }
+
+// Check if the number is divisible by 5
+func divisibleByFive(_ num: Int) -> Bool {
+    if num % 5 == 0 {
+        return true
+    } else {
+        return false
+    }
+}
