@@ -159,3 +159,13 @@ func isOmnipresentValue(_ arr: [[Int]], _ val: Int) -> Bool {
 	}
 	return true
 }
+
+// Get The Word Count
+func getWordCount(_ str: String) -> Int {
+    return str.components(separatedBy: " ").count
+}
+
+// Find the largest number in an array
+func largestNumberInArray(_ arr: [Int]) -> Int {
+    return arr.max()!
+}
