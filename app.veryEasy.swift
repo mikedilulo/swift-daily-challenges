@@ -120,3 +120,12 @@ func isOddOrEven(_ num: Int) -> Bool {
         return "odd"
     }
 }
+
+// Create a function that returns true if a string has any spaces
+func stringHasSpaces(_str: String) -> Bool {
+    if str.contains(" ") {
+        return true
+    } else {
+        return false
+    }
+}
