@@ -47,3 +47,8 @@ func concatArrays(_ arr1: [Int], _ arr2: [Int]) -> [Int] {
 func emptyString(_ str: String) -> Bool {
 return str.emptyString
 } 
+
+//Concatenate first and last name into one string
+func concatName(_ str1: String, _ str2: String) -> String {
+    return str1 + ", " + str2
+}
