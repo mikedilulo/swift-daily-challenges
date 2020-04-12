@@ -205,3 +205,8 @@ func numberArgs(_ numbers: Int... ) -> Int {
 	}
 	return total
 }
+
+// Create a function that takes in a number and countsdown from that number to zero in array
+func countdown(_ start: Int) -> [Int] {
+	return (0...start).reversed()
+}
