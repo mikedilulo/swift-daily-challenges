@@ -190,3 +190,8 @@ func findEvenNums(_ num: Int) -> [Int] {
 func wordIsPlural(_ word: String) -> Bool {
     return word.hasSuffix("s")
 }
+
+// Create a function that alphabatizes the characters in a string 
+func alphabetSoup(_ str: String) -> String {
+	return String(str.characters.sorted())
+}
