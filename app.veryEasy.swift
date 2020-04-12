@@ -185,3 +185,8 @@ func findEvenNums(_ num: Int) -> [Int] {
 	let numbers = [Int](1...num)
 	return numbers.filter { $0 % 2 == 0 }
 }
+
+// Create a function that returns true if it has an "s"
+func wordIsPlural(_ word: String) -> Bool {
+    return word.hasSuffix("s")
+}
