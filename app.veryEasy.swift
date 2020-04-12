@@ -169,3 +169,13 @@ func getWordCount(_ str: String) -> Int {
 func largestNumberInArray(_ arr: [Int]) -> Int {
     return arr.max()!
 }
+
+// Create a function that takes in two strings and returns true or false if the strings have the same equal
+// amount of characters
+func sameAmountChar(_ str1: String, _ str2: String) -> Bool {
+	    if str1.characters.count == str2.characters.count {
+        return true 
+    } else {
+        return false
+    }
+}
