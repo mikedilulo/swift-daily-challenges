@@ -180,7 +180,7 @@ func sameAmountChar(_ str1: String, _ str2: String) -> Bool {
     }
 }
 
-// Create a function that takes a string and returns a string in alphabetical order
+// Create a function that takes a return all even numbers between 1 and a given number
 func findEvenNums(_ num: Int) -> [Int] {
 	let numbers = [Int](1...num)
 	return numbers.filter { $0 % 2 == 0 }
