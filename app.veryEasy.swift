@@ -181,6 +181,7 @@ func sameAmountChar(_ str1: String, _ str2: String) -> Bool {
 }
 
 // Create a function that takes a string and returns a string in alphabetical order
-func alphabeticalString(_ str: String) -> String {
-    return String(str.characters.sorted())
+func findEvenNums(_ num: Int) -> [Int] {
+	let numbers = [Int](1...num)
+	return numbers.filter { $0 % 2 == 0 }
 }
