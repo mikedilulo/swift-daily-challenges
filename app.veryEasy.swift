@@ -195,3 +195,13 @@ func wordIsPlural(_ word: String) -> Bool {
 func alphabetSoup(_ str: String) -> String {
 	return String(str.characters.sorted())
 }
+
+//Create a function that returns the total number of parameters passed in 
+func numberArgs(_ numbers: Int... ) -> Int {
+	var total = 0
+	for count in numbers
+	{
+		total += 1
+	}
+	return total
+}
