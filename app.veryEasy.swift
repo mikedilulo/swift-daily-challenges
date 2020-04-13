@@ -210,3 +210,10 @@ func numberArgs(_ numbers: Int... ) -> Int {
 func countdown(_ start: Int) -> [Int] {
 	return (0...start).reversed()
 }
+
+// Create a function where you return 1 to the number in an array, if the number is divisible by 4, multiply
+// it by 10
+
+func multiplyByFour(_ num: Int) -> [Int] {
+return Array(1...num).map{$0 % 4 == 0 ? $0*10 : $0}
+}
