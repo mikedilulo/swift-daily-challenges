@@ -217,3 +217,10 @@ func countdown(_ start: Int) -> [Int] {
 func multiplyByFour(_ num: Int) -> [Int] {
 return Array(1...num).map{$0 % 4 == 0 ? $0*10 : $0}
 }
+
+// Write a function that returns true if two rooks can attack each other, and false otherwise.
+
+func canCaptureRook(_ rooks: [String] -> Bool {
+    	var a = rooks[0].characters; var b = rooks[1].characters
+	return a.first == b.first || a.last == b.last ? true : false
+}
