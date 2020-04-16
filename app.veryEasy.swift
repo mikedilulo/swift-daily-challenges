@@ -224,3 +224,14 @@ func canCaptureRook(_ rooks: [String] -> Bool {
     	var a = rooks[0].characters; var b = rooks[1].characters
 	return a.first == b.first || a.last == b.last ? true : false
 }
+
+// Write a function that returns the missing angle
+func missingAngle(_ angle1: Int, _ angle2: Int) -> String {
+    if angle1 + angle2 > 90 {
+        return "acute"
+    } else if angle1 + angle2 == 90 {
+        return "right"
+    } else {
+        return "obtuse"
+    }
+}
