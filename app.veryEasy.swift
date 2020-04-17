@@ -240,3 +240,8 @@ func missingAngle(_ angle1: Int, _ angle2: Int) -> String {
 func addEnding(_ arr: [String], _ ending: String) -> [String] {
 return arr.map{$0 + ending}	
 }
+
+// Create a function where if the jump height is greater than the hurdle height return true that they can jump over them
+func hurdleJump(_ hurdles: [Int], _ jumpHeight: Int) -> Bool {
+return jumpHeight >= hurdles.max() ?? hurdles.reduce(0, +)
+}
