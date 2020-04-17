@@ -245,3 +245,10 @@ return arr.map{$0 + ending}
 func hurdleJump(_ hurdles: [Int], _ jumpHeight: Int) -> Bool {
 return jumpHeight >= hurdles.max() ?? hurdles.reduce(0, +)
 }
+
+// Create a function that returns the number of dashes for numbers 1-60
+// i.e. "Go = --"
+
+func dashes(_ num: Int) -> String {
+    return String(repeating: "-", count: num);
+}
