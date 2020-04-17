@@ -235,3 +235,8 @@ func missingAngle(_ angle1: Int, _ angle2: Int) -> String {
         return "obtuse"
     }
 }
+
+// Create a function that returns "ly" to the end of each word in an array 
+func addEnding(_ arr: [String], _ ending: String) -> [String] {
+return arr.map{$0 + ending}	
+}
