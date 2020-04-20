@@ -274,7 +274,19 @@ func isBetween(_ first: String, _ last: String, _ word: String) -> Bool {
 
 //Create a function that filters out an array of state names into two categories based on the second parameter.
 
-
+func filterStateNames(_ arr: [String], _ type: String) -> [String] {
+	var res = [String]()
+	for str in arr {
+		var isAbb: Bool = str.characters.count == 2 ? true : false
+		
+		if type == "abb" && isAbb {
+			res.append(str)
+		} else if type == "full" && !isAbb {
+			res.append(str)
+		}
+	}
+	return res
+}
 
 
 
