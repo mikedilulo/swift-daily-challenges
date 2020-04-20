@@ -267,3 +267,11 @@ func dashes(_ num: Int) -> String {
 
 
 //Create a function that filters out an array of state names into two categories based on the second parameter.
+
+
+
+
+
+
+
+//Create a function that goes through the array, incrementing (+1) for each odd number and decrementing (-1) for each even number.
