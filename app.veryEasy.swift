@@ -289,11 +289,10 @@ func filterStateNames(_ arr: [String], _ type: String) -> [String] {
 }
 
 
-
-
-
 //Create a function that goes through the array, incrementing (+1) for each odd number and decrementing (-1) for each even number.
-
+func incrementAndDecrement(_ arr: [Int]) -> [Int] {
+return arr.map({$0 % 2 == 0 ? $0 - 1 : $0 + 1})
+}
 
 
 
