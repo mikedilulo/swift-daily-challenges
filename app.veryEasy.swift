@@ -294,8 +294,8 @@ func incrementAndDecrement(_ arr: [Int]) -> [Int] {
 return arr.map({$0 % 2 == 0 ? $0 - 1 : $0 + 1})
 }
 
-
-
-
-
 //Create a function that returns true if a pair of strings constitutes a strange pair, and false otherwise.
+
+func isStrangePair(_ str1: String, _ str2: String) -> Bool {
+	return str1.characters.first == str2.characters.last && str1.characters.last == str2.characters.first; 
+}
