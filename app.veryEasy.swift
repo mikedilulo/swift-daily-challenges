@@ -260,3 +260,10 @@ func dashes(_ num: Int) -> String {
 
 //Write a function that takes three string arguments (first, last, word) and returns true if (when alphabetically sorted)
 // word is found between first and last.
+
+
+
+
+
+
+//Create a function that filters out an array of state names into two categories based on the second parameter.
