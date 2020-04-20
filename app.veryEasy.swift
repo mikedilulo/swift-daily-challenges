@@ -275,3 +275,10 @@ func dashes(_ num: Int) -> String {
 
 
 //Create a function that goes through the array, incrementing (+1) for each odd number and decrementing (-1) for each even number.
+
+
+
+
+
+
+//Create a function that returns true if a pair of strings constitutes a strange pair, and false otherwise.
