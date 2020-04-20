@@ -254,7 +254,9 @@ func dashes(_ num: Int) -> String {
 }
 
 //Create a function that takes an array of strings and returns the words that are exactly four letters.
-
+func fourLetterWords(_ arr: [String]) -> [String] {
+return arr.filter { $0.characters.count == 4 }
+}
 
 
 
