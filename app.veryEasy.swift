@@ -252,3 +252,9 @@ return jumpHeight >= hurdles.max() ?? hurdles.reduce(0, +)
 func dashes(_ num: Int) -> String {
     return String(repeating: "-", count: num);
 }
+
+//Create a function that takes an array of strings and returns the words that are exactly four letters.
+
+
+
+
