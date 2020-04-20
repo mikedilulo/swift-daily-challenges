@@ -258,3 +258,5 @@ func dashes(_ num: Int) -> String {
 
 
 
+//Write a function that takes three string arguments (first, last, word) and returns true if (when alphabetically sorted)
+// word is found between first and last.
