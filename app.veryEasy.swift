@@ -306,7 +306,9 @@ func multiplyValues(_ arr: [Int]) -> [Int] {
 }
 
 //Create a function that takes an array and a string as arguments and return the index of the string.
-
+func findIndexInArray(_ arr: [String], _ el: String) -> Int {
+return arr.index(of: el)!
+}
 
 //Create a function that takes a base number and an exponent number and returns the calculation.
 
