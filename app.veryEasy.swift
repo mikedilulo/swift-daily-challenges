@@ -310,3 +310,6 @@ func isStrangePair(_ str1: String, _ str2: String) -> Bool {
 
 
 //Create a function that takes in an array of numbers and returns the sum of its cubes.
+
+
+//Create a function that returns the minimum number of removals to make the sum of all elements in an array even.
