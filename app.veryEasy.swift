@@ -304,3 +304,6 @@ func isStrangePair(_ str1: String, _ str2: String) -> Bool {
 
 
 //Create a function that takes an array and a string as arguments and return the index of the string.
+
+
+//Create a function that takes a base number and an exponent number and returns the calculation.
