@@ -299,3 +299,5 @@ return arr.map({$0 % 2 == 0 ? $0 - 1 : $0 + 1})
 func isStrangePair(_ str1: String, _ str2: String) -> Bool {
 	return str1.characters.first == str2.characters.last && str1.characters.last == str2.characters.first; 
 }
+
+//Create a function to multiply all of the values in an array by the amount of values in the given array.
