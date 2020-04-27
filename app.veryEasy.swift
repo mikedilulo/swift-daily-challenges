@@ -307,3 +307,6 @@ func isStrangePair(_ str1: String, _ str2: String) -> Bool {
 
 
 //Create a function that takes a base number and an exponent number and returns the calculation.
+
+
+//Create a function that takes in an array of numbers and returns the sum of its cubes.
