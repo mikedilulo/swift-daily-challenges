@@ -301,7 +301,9 @@ func isStrangePair(_ str1: String, _ str2: String) -> Bool {
 }
 
 //Create a function to multiply all of the values in an array by the amount of values in the given array.
-
+func multiplyValues(_ arr: [Int]) -> [Int] {
+    return arr.map { $0 * arr.count }
+}
 
 //Create a function that takes an array and a string as arguments and return the index of the string.
 
