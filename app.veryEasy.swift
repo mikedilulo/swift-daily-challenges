@@ -311,7 +311,9 @@ return arr.index(of: el)!
 }
 
 //Create a function that takes a base number and an exponent number and returns the calculation.
-
+func calculateExponent(_ num: Int, _ exp: Int) -> Int {
+    return Int(pow(Double(num), Double(exp)));
+}
 
 //Create a function that takes in an array of numbers and returns the sum of its cubes.
 
