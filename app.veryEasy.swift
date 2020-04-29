@@ -316,6 +316,13 @@ func calculateExponent(_ num: Int, _ exp: Int) -> Int {
 }
 
 //Create a function that takes in an array of numbers and returns the sum of its cubes.
-
+func sumOfCubes(_ nums: [Int]) -> Int {
+	var total = 0
+	
+	for num in nums {
+		total += (num*num*num)
+	}
+	return total
+}
 
 //Create a function that returns the minimum number of removals to make the sum of all elements in an array even.
