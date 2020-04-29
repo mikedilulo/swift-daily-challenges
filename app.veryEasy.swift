@@ -326,3 +326,6 @@ func sumOfCubes(_ nums: [Int]) -> Int {
 }
 
 //Create a function that returns the minimum number of removals to make the sum of all elements in an array even.
+func minimumRemovals(_ arr: [Int]) -> Int {
+return arr.reduce(0, +) % 2 == 0 ? 0 : 1
+}
