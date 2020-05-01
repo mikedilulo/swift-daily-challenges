@@ -342,3 +342,8 @@ return arr.reduce(0, +) % 2 == 0 ? 0 : 1
 
 
 //Create a function that takes an array as an argument and returns true or false depending on whether the average of all elements in the array is a whole number or not.
+
+
+
+
+//Create a function that accepts a string, checks if it's a valid email address and returns either true or false, depending on the evaluation.
