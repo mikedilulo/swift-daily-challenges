@@ -347,3 +347,8 @@ return arr.reduce(0, +) % 2 == 0 ? 0 : 1
 
 
 //Create a function that accepts a string, checks if it's a valid email address and returns either true or false, depending on the evaluation.
+
+
+
+
+//Create a function that takes three integer arguments (a, b, c) and returns the amount of integers which are of equal value.
