@@ -329,3 +329,5 @@ func sumOfCubes(_ nums: [Int]) -> Int {
 func minimumRemovals(_ arr: [Int]) -> Int {
 return arr.reduce(0, +) % 2 == 0 ? 0 : 1
 }
+
+//Create a function that takes an array of numbers and returns only the even values.
