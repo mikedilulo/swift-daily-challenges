@@ -331,3 +331,9 @@ return arr.reduce(0, +) % 2 == 0 ? 0 : 1
 }
 
 //Create a function that takes an array of numbers and returns only the even values.
+
+
+
+
+
+//Create a function that returns the next element in an arithmetic sequence. In an arithmetic sequence, each element is formed by adding the same constant to the previous element.
