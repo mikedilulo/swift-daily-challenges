@@ -337,3 +337,8 @@ return arr.reduce(0, +) % 2 == 0 ? 0 : 1
 
 
 //Create a function that returns the next element in an arithmetic sequence. In an arithmetic sequence, each element is formed by adding the same constant to the previous element.
+
+
+
+
+//Create a function that takes an array as an argument and returns true or false depending on whether the average of all elements in the array is a whole number or not.
