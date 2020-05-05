@@ -331,7 +331,9 @@ return arr.reduce(0, +) % 2 == 0 ? 0 : 1
 }
 
 //Create a function that takes an array of numbers and returns only the even values.
-
+func noOdds(_ arr: [Int]) -> [Int] {
+	return arr.filter { $0 % 2 == 0 }
+}
 
 
 
