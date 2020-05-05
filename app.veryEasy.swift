@@ -346,7 +346,9 @@ func nextElement(_ arr: [Int]) -> Int {
 
 
 //Create a function that takes an array as an argument and returns true or false depending on whether the average of all elements in the array is a whole number or not.
-
+func isAvgWhole(_ arr: [Int]) -> Bool {
+	return arr.reduce(0,+) % arr.count == 0
+}
 
 
 
