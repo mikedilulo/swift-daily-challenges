@@ -353,7 +353,24 @@ func isAvgWhole(_ arr: [Int]) -> Bool {
 
 
 //Create a function that accepts a string, checks if it's a valid email address and returns either true or false, depending on the evaluation.
-
+func validateEmail(_ str: String) -> Bool {
+    var ans = false
+    var emailArr = [String]()
+    for char in str.characters {
+        emailArr.append (String(char))
+    }
+    if emailArr[0] == "@" {
+        return false
+    } else {
+        let newEmailArr = emailArr.filter{ $0 == "@" || $0 == "." }
+            if newEmailArr.contains ("@") && newEmailArr.contains (".") {
+            if newEmailArr[newEmailArr.count - 1] != "@" {
+                return true
+            }
+        }
+    }
+    return ans
+}
 
 
 
