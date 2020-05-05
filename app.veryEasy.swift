@@ -375,3 +375,12 @@ func validateEmail(_ str: String) -> Bool {
 
 
 //Create a function that takes three integer arguments (a, b, c) and returns the amount of integers which are of equal value.
+func equal(_ a: Int, _ b: Int, _ c: Int) -> Int {
+	if a == b && b == c {
+		return 3
+	} else if a == b || b == c || a == c {
+		return 2
+	} else {
+		return 0
+	}
+}
