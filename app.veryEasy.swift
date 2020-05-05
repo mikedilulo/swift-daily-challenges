@@ -339,7 +339,9 @@ func noOdds(_ arr: [Int]) -> [Int] {
 
 
 //Create a function that returns the next element in an arithmetic sequence. In an arithmetic sequence, each element is formed by adding the same constant to the previous element.
-
+func nextElement(_ arr: [Int]) -> Int {
+	return arr.last! + (arr[1] - arr[0])
+}
 
 
 
