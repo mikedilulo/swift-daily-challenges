@@ -387,6 +387,9 @@ func equal(_ a: Int, _ b: Int, _ c: Int) -> Int {
 
 
 //Create a function that returns the product of all odd integers in an array.
+func oddProduct(_ arr: [Int]) -> Int {
+	return arr.filter{$0 % 2 == 1}.reduce(1){$0*$1}
+}
 
 
 //Create a function that takes a string and returns a string in which each character is repeated once.
