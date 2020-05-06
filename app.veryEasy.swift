@@ -396,3 +396,10 @@ func equal(_ a: Int, _ b: Int, _ c: Int) -> Int {
 
 
 //Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.
+func getAbsSum(_ arr: [Int]) -> Int {
+  var sum = 0;
+  for i in arr {
+      sum = sum + abs(i)
+  }
+  return sum
+}
