@@ -393,6 +393,15 @@ func oddProduct(_ arr: [Int]) -> Int {
 
 
 //Create a function that takes a string and returns a string in which each character is repeated once.
+func doubleChar(_ str: String) -> String {
+	var result = ""
+  
+  str.characters.forEach { word in
+  		result += "\(word)\(word)"
+	}
+  
+  return result
+}
 
 
 //Create a function that takes in two arrays: the array of user-typed words, and the array of correctly-typed words and outputs an array containing 1s
