@@ -384,3 +384,6 @@ func equal(_ a: Int, _ b: Int, _ c: Int) -> Int {
 		return 0
 	}
 }
+
+
+//Create a function that returns the product of all odd integers in an array.
