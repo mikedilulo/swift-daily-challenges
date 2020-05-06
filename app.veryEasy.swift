@@ -393,3 +393,6 @@ func equal(_ a: Int, _ b: Int, _ c: Int) -> Int {
 
 
 //Create a function that takes in two arrays: the array of user-typed words, and the array of correctly-typed words and outputs an array containing 1s
+
+
+//Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.
