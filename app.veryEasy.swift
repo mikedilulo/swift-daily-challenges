@@ -405,6 +405,20 @@ func doubleChar(_ str: String) -> String {
 
 
 //Create a function that takes in two arrays: the array of user-typed words, and the array of correctly-typed words and outputs an array containing 1s
+func correctStream(_ user: [String], _ correct: [String]) -> [Int] {
+	var array = [ Int ]()
+	
+	for i in 0..<user.count {
+		if user[i] == correct[i] {
+			array.append(1)
+		}
+		else {
+			array.append(-1)
+		}
+	}
+	
+	return array
+}
 
 
 //Take an array of integers (positive or negative or both) and return the sum of the absolute value of each element.
