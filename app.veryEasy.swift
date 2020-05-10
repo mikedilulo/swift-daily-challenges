@@ -434,7 +434,9 @@ func getAbsSum(_ arr: [Int]) -> Int {
 
 
 //Create a function that performs an even-odd transform to an array, n times. Each even-odd transformation:
-
+func evenOddTransform(_ arr: [Int], _ n: Int) -> [Int] {
+	return arr.map{ $0 % 2 != 0 ? ($0 + n*2) : ($0 - n*2)}
+}
 
 //Given an array of numbers, write a function that returns an array that...
 func uniqueSort(_ arr: [Double]) -> [Double] {
