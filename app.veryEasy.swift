@@ -431,3 +431,6 @@ func getAbsSum(_ arr: [Int]) -> Int {
 }
 
 //Create a function that takes in an array (slot machine outcome) and returns true if all elements in the array are identical, and false otherwise.
+
+
+//Create a function that performs an even-odd transform to an array, n times. Each even-odd transformation:
