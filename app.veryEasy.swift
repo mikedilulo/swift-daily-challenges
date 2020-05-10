@@ -437,3 +437,6 @@ func getAbsSum(_ arr: [Int]) -> Int {
 
 
 //Given an array of numbers, write a function that returns an array that...
+func uniqueSort(_ arr: [Double]) -> [Double] {
+		return Array(Set(arr)).sorted()
+}
