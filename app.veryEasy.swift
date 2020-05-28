@@ -449,3 +449,6 @@ func uniqueSort(_ arr: [Double]) -> [Double] {
 
 
 // Create a function that takes an array of numbers and returns the smallest number in the set.
+
+
+// Create a function that takes a number as its argument and returns an array of all its factors.
