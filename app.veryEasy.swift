@@ -446,3 +446,6 @@ func uniqueSort(_ arr: [Double]) -> [Double] {
 }
 
 // A number added with its additive inverse equals zero. Create a function that returns an array of additive inverses.
+
+
+// Create a function that takes an array of numbers and returns the smallest number in the set.
