@@ -458,3 +458,6 @@ func uniqueSort(_ arr: [Double]) -> [Double] {
 
 
 // Create a function that takes a number as an argument and returns the amount of digits it has.
+
+
+// Write a function that returns the lexicographically first and lexicographically last rearrangements of a string. 
