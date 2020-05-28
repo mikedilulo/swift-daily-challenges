@@ -461,3 +461,6 @@ func uniqueSort(_ arr: [Double]) -> [Double] {
 
 
 // Write a function that returns the lexicographically first and lexicographically last rearrangements of a string. 
+
+
+// Create a function that takes an array and returns the difference between the biggest and smallest numbers.
