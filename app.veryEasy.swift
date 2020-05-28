@@ -452,3 +452,6 @@ func uniqueSort(_ arr: [Double]) -> [Double] {
 
 
 // Create a function that takes a number as its argument and returns an array of all its factors.
+
+
+// A palindrome is a word that is identical forward and backwards.
