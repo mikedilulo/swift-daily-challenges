@@ -444,3 +444,5 @@ func evenOddTransform(_ arr: [Int], _ n: Int) -> [Int] {
 func uniqueSort(_ arr: [Double]) -> [Double] {
 		return Array(Set(arr)).sorted()
 }
+
+// A number added with its additive inverse equals zero. Create a function that returns an array of additive inverses.
